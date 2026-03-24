@@ -1,16 +1,16 @@
-// 1 + 2 + 3 + ... + n
-const calculoRapidinho = (n) => {
-    return n > 0 ?
-            Promise.resolve((n/2 )*(n+1))  :
-            Promise.reject('Somente valores positivos!')
-}
-calculoRapidinho(-1000)
-.then((res) => {
-    console.log(`Resultado: ${res}`)
-})
-.catch(function(erro){
-    console.log(`Erro: ${erro}`)
-})
+// // 1 + 2 + 3 + ... + n
+// const calculoRapidinho = (n) => {
+//     return n > 0 ?
+//             Promise.resolve((n/2 )*(n+1))  :
+//             Promise.reject('Somente valores positivos!')
+// }
+// calculoRapidinho(-1000)
+// .then((res) => {
+//     console.log(`Resultado: ${res}`)
+// })
+// .catch(function(erro){
+//     console.log(`Erro: ${erro}`)
+// })
 
 // function calculoDemorado(n){
 //     const p = new Promise((resolve, reject) => {
