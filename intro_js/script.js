@@ -1,3 +1,29 @@
+// https://openweathermap.org/
+// const calculoRapidinho = (n) => {
+//     return n > 0
+//             ? Promise.resolve((n/2) * (n/1))
+//             : Promise.reject('Somente')
+// }
+// calculoRapidinho(10)
+// .then((res)=> console.log(`Resultado: ${res}`))
+// .catch((erro)=> console.log(`Erro: ${erro}`))
+// console.log("Script principal terminando...")
+
+// function calculoDemorado(n){
+//     return new Promise((resolve, reject)=> {
+//        let ac = 0
+//     for (let i = 1; 1 <= n; i++)
+//         ac+= i
+//     resolve(ac)
+//     })
+// }
+// const minhaPromisse = calculoDemorado(10)
+// minhaPromisse.then((res)=> {
+//     console.log("Resultado: " + res)
+// })
+// console.log('Terminando o script principal...')
+
+
 // // 1 + 2 + 3 + ... + n
 // const calculoRapidinho = (n) => {
 //     return n > 0 ?
@@ -36,15 +62,15 @@
 // })
 // console.log("Fim do script...")
 
-function calculoDemorado(n){
-    let res = 0
-    for(let i = 1; i <= n; i++)
-        res += i
-    return res
-}
-const resultado = calculoDemorado(10)
-console.log(resultado)
-console.log("Fim do script...")
+// function calculoDemorado(n){
+//     let res = 0
+//     for(let i = 1; i <= n; i++)
+//         res += i
+//     return res
+// }
+// const resultado = calculoDemorado(10)
+// console.log(resultado)
+// console.log("Fim do script...")
 
 // const fs = require('fs')
 // const abrirArquivo = (nomeArquivo) => {
